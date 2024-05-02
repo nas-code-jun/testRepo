@@ -20,10 +20,10 @@ namespace NikandrovTestApp
         static public string name;
         private void Form1_Load(object sender, EventArgs e)
         {
-            if(DB.connect())
+            if(DBase.connect())
             {
-                DB.getLogin();
-                LoginComboBox.DataSource = DB.dtLogin;
+                DBase.getLogin();
+                LoginComboBox.DataSource = DBase.dtLogin;
                 LoginComboBox.DisplayMember = "login";
                 LoginComboBox.ValueMember = "id";
 
@@ -35,7 +35,7 @@ namespace NikandrovTestApp
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            if(DB.disConnect())
+            if(DBase.disConnect())
             {
                 this.Close();
             }
@@ -44,16 +44,17 @@ namespace NikandrovTestApp
 
         private void AuthButton_Click(object sender, EventArgs e)
         {
-            if(DB.auth(LoginComboBox.Text, PassTextBox.Text))
-            {
-                name = LoginComboBox.Text;
-                MessageBox.Show("ok");
-            }
-            else
-            {
-                name = "";
-                MessageBox.Show("password incorrect");
-            }
+            Console.WriteLine(DBase.auth(LoginComboBox.Text, PassTextBox.Text));
+            //if(DBase.auth(LoginComboBox.Text, PassTextBox.Text))
+            //{
+            //    name = LoginComboBox.Text;
+            //    MessageBox.Show("ok");
+            //}
+            //else
+            //{
+            //    name = "";
+            //    MessageBox.Show("password incorrect");
+            //}
         }
     }
 }
