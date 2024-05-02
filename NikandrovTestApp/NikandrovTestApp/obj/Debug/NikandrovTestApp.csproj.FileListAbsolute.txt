@@ -1,0 +1,12 @@
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\bin\Debug\NikandrovTestApp.exe.config
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\bin\Debug\NikandrovTestApp.exe
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\bin\Debug\NikandrovTestApp.pdb
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\bin\Debug\MySql.Data.dll
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.csproj.AssemblyReference.cache
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.Form1.resources
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.Properties.Resources.resources
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.csproj.GenerateResource.cache
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.csproj.CoreCompileInputs.cache
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.csproj.CopyComplete
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.exe
+C:\Users\NikandrovAS\Desktop\testMVS\NikandrovTestApp\NikandrovTestApp\obj\Debug\NikandrovTestApp.pdb
