@@ -22,8 +22,8 @@ namespace NikandrovTestApp
         {
             if(DB.connect())
             {
-                MessageBox.Show("Yes");
-            } else MessageBox.Show("No");
+                MessageBox.Show("Connected!");
+            } else MessageBox.Show("Not connected!");
         }
     }
 }
