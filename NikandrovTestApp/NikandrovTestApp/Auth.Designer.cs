@@ -78,6 +78,7 @@ namespace NikandrovTestApp
             this.ExitButton.TabIndex = 4;
             this.ExitButton.Text = "Выход";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // AuthButton
             // 
@@ -87,6 +88,7 @@ namespace NikandrovTestApp
             this.AuthButton.TabIndex = 5;
             this.AuthButton.Text = "Войти";
             this.AuthButton.UseVisualStyleBackColor = true;
+            this.AuthButton.Click += new System.EventHandler(this.AuthButton_Click);
             // 
             // Auth
             // 
