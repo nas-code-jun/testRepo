@@ -9,8 +9,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethodCorrectPassword()
         {
-            string login = "sam";
-            string pass = "2";
+            string login = "john";
+            string pass = "1";
             bool expected = true;
 
             bool actual = NikandrovTestApp.DBase.auth(login, pass);
